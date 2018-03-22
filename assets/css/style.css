@@ -85,18 +85,28 @@ header .container {
   border: #ddd solid 3px;
   padding: 36px;
   margin-top: 108px;
-  margin-bottom: 54px;
   background-color: #fff;
+  float: left;
+  width: 63%;
 }
 
-#bigBox::after {
-  content: "";
-  display: block;
-  clear: both;
+#littleBox {
+  border: #ddd solid 3px;
+  padding: 24px;
+  margin-top: 108px;
+  background-color: #fff;
+  float: right;
+  width: 36%;
 }
 
-#headline {
-  width: 100%;
+.socIcon {
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.headline {
+  /* width: 100%; */
   border-bottom: #ddd solid 1px;
   margin-bottom: 36px;
 }
@@ -117,8 +127,8 @@ footer {
   padding: 18px 0;
 }
 
-h1, h2 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+h1, h2, h3{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -132,6 +142,13 @@ h2 {
   font-weight: 700;
   font-size: 36px;
 }
+
+h3 {
+  color: #4aaaa5;
+  font-weight: 700;
+  font-size: 24px;
+}
+
 
 .formInput {
   display: inline-block;
@@ -155,8 +172,13 @@ h2 {
 
 .portfolioItem {
   float: left;
-  margin: 18px;
+  margin: 10px;
   position: relative;
+  width: 45%;
+}
+
+.portfolioItem img {
+  width: 100%;
 }
 
 .portfolioLabel {
