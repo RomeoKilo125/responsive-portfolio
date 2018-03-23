@@ -1,7 +1,7 @@
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
-  background-color: #ffffff;
+  color: #777;
+  background-color: #fff;
   background-image: url("../images/dust_scratches.png");
   font-size: 18px;
 }
@@ -23,8 +23,8 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: solid #cccccc 2px;
-  background-color: #ffffff;
+  border-bottom: solid #ccc 2px;
+  background-color: #fff;
   height: 90px;
 }
 
@@ -173,6 +173,7 @@ h3 {
   margin: 10px;
   position: relative;
   width: 45%;
+  
 }
 
 .portfolioItem img {
@@ -223,6 +224,35 @@ h3 {
     width: 100%;
     margin: 10px 0;
   }
+  footer {
+    padding: 5px 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+  #nameLabel {
+    width: 100%;
+    text-align: center;
+  }
+
+  #navBar {
+    float: left;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    padding: 5px;
+    border: solid #ccc 2px;
+
+  }
+
+  .navItem {
+    width: 32%;
+  }
+
 
 
 }
