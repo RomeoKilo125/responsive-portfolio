@@ -206,16 +206,23 @@ h3 {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 630px;
+    width: 640px;
   }
-  #bigbox {
+  #nameLabel h1 {
+    font-size: 48px;
+  }
+  #bigBox {
     width: 100%;
   }
   #littleBox {
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 60px;
   }
   .portfolioItem {
     width: 100%;
     margin: 10px 0;
   }
+
+
 }
