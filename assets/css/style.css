@@ -69,7 +69,6 @@ header .container {
 .navItem a {
   color: #aaa;
   text-decoration: none;
-
 }
 
 .navItem a:hover {
@@ -127,7 +126,7 @@ footer {
   padding: 18px 0;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
@@ -148,7 +147,6 @@ h3 {
   font-weight: 700;
   font-size: 24px;
 }
-
 
 .formInput {
   display: inline-block;
@@ -190,4 +188,35 @@ h3 {
   position: absolute;
   bottom: 18px;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 630px;
+  }
+  #bigbox {
+    width: 100%;
+  }
+  #littleBox {
+    width: 100%;
+  }
+  .portfolioItem {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 760px;
+  }
+  .portrait {
+    width: 100%;
+    margin: 0;
+  }
+  .portfolioItem {
+    width: 100%;
+    margin: 10px 0;
+  }
 }
